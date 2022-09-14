@@ -1,0 +1,40 @@
+name = "MvdaServer"
+uuid = "a7ecdef3-ea17-47a8-a7df-9950d1e014cb"
+authors = ["Fredrik Pettersson "]
+version = "0.1.0"
+
+[deps]
+Base64 = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+CategoricalArrays = "324d7699-5711-5eae-9e2f-1d82baa6b597"
+Chain = "8be319e6-bccf-4806-a6f7-6fae938471bc"
+Conda = "8f4d0f93-b110-5947-807f-2305c1781a2d"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+DataFramesMeta = "1313f7d8-7da2-5740-9ea0-a2ca25f37964"
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
+JSON3 = "0f8b85d8-7281-11e9-16c2-39a750bddbf1"
+JSONTables = "b9914132-a727-11e9-1322-f18e41205b0b"
+JWTs = "d850fbd6-035d-5a70-a269-1ca2e636ac6c"
+Mongoc = "4fe8b98c-fc19-5c23-8ec2-168ff83495f2"
+NIPALS_PCA = "6d34e894-ae79-4b37-8bb1-324840f02c67"
+Pipe = "b98c9c47-44ae-5843-9183-064241ee97a0"
+PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
+Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
+ScikitLearn = "3646fa90-6ef7-5e7e-9f22-8aca16db6324"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+StringViews = "354b36f9-a18e-4713-926e-db85100087ba"
+StructTypes = "856f2bd8-1eba-4b0a-8007-ebc267875bd4"
+UnicodePlots = "b8865327-cd53-5732-bb35-84acbb429228"
+Weave = "44d3d7a6-8a23-5bf8-98c5-b353f8df5ec9"
+XLSX = "fdbf4ff8-1666-58a4-91e7-1b58723a45e0"
+YAML = "ddb6d928-2868-570f-bddf-ab3f9cf99eb6"
+
+[compat]
+julia = "^1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
